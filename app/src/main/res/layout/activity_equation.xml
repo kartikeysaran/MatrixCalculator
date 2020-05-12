@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/solarred"
+    android:gravity="center|top">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System of linear equations"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:gravity="center">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="a1"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:inputType="numberSigned"
+            android:padding="10dp"
+            android:id="@+id/a1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="b1"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:inputType="numberSigned"
+            android:padding="10dp"
+            android:id="@+id/b1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="c1"
+            android:textColorHint="#FFFFFF"
+            android:inputType="numberSigned"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:id="@+id/c1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="z"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="d1"
+            android:textColorHint="#FFFFFF"
+            android:inputType="numberSigned"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:id="@+id/d1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="a2"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:inputType="numberSigned"
+            android:padding="10dp"
+            android:id="@+id/a2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="b2"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:inputType="numberSigned"
+            android:padding="10dp"
+            android:id="@+id/b2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="c2"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:inputType="numberSigned"
+            android:padding="10dp"
+            android:id="@+id/c2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="z"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="d2"
+            android:id="@+id/d2"
+            android:inputType="numberSigned"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="a3"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:inputType="numberSigned"
+            android:padding="10dp"
+            android:id="@+id/a3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="b3"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:inputType="numberSigned"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:id="@+id/b3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="y"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="c3"
+            android:inputType="numberSigned"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:id="@+id/c3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="z"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="d3"
+            android:id="@+id/d3"
+            android:textColorHint="#FFFFFF"
+            android:inputType="numberSigned"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Solution"
+            android:background="@drawable/custombutton"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+
+            android:id="@+id/sol"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/custombutton"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+
+            android:id="@+id/clr"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:id="@+id/det"
+            android:text="D = "
+            android:padding="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:text="D1 = "
+            android:id="@+id/det1"
+            android:padding="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:text="D2 = "
+            android:id="@+id/det2"
+            android:padding="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:id="@+id/det3"
+            android:textSize="18sp"
+            android:text="D3 = "
+            android:padding="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:id="@+id/x1"
+            android:text="x = "
+            android:padding="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:text="y = "
+            android:id="@+id/y1"
+            android:padding="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:text="z = "
+            android:id="@+id/z1"
+            android:padding="20dp"/>
+
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:id="@+id/msg"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
